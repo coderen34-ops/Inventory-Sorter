@@ -1,0 +1,11 @@
+name: InventorySorter
+version: '1.3'
+main: com.sorter.inventorysorter.InventorySorterPlugin
+api-version: '26.2'
+author: Claude
+description: Açık container'ı sıralar (F tuşu, GUI dışına tık, /sort veya creative'de orta tık). Özel plugin GUI'lerine dokunmaz.
+
+commands:
+  sort:
+    description: Açık sandık/varil içeriğini sıralar
+    usage: /sort
