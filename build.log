@@ -1,0 +1,33 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.sorter:inventorysorter >---------------------
+[INFO] Building inventorysorter 1.3.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ inventorysorter ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ inventorysorter ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 3 source files with javac [debug release 25] to target/classes
+[INFO] /home/runner/work/Inventory-Sorter/Inventory-Sorter/src/main/java/com/sorter/inventorysorter/SortCommand.java: Some input files use or override a deprecated API.
+[INFO] /home/runner/work/Inventory-Sorter/Inventory-Sorter/src/main/java/com/sorter/inventorysorter/SortCommand.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ inventorysorter ---
+[INFO] skip non existing resourceDirectory /home/runner/work/Inventory-Sorter/Inventory-Sorter/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ inventorysorter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ inventorysorter ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.5.0:jar (default-jar) @ inventorysorter ---
+[INFO] Building jar: /home/runner/work/Inventory-Sorter/Inventory-Sorter/target/inventorysorter.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.628 s
+[INFO] Finished at: 2026-10-26T13:27:11Z
+[INFO] ------------------------------------------------------------------------
