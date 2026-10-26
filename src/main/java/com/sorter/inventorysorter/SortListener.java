@@ -78,5 +78,7 @@ public class SortListener implements Listener {
         event.setCancelled(true);
         sortInventory(ust);
         player.updateInventory();
+        // Klan kasasındaki sıralamayla aynı ses
+        player.playSound(player.getLocation(), org.bukkit.Sound.ITEM_BUNDLE_INSERT, 0.5f, 1.2f);
     }
 }
